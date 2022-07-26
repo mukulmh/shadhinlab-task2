@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "c5d54df7-119c-4a0e-8160-1c830a2bacd5",
+		"name": "task2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9394733"
+	},
+	"item": [
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"mhmukul@gmail.com\",\r\n  \"password\": \"abc123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://a5pj7cq7u9.execute-api.ca-central-1.amazonaws.com/test/login",
+					"protocol": "https",
+					"host": [
+						"a5pj7cq7u9",
+						"execute-api",
+						"ca-central-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"test",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Mehedy Hassan\",\r\n    \"email\": \"mhmukul@gmail.com\",\r\n    \"password\": \"abc123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://a5pj7cq7u9.execute-api.ca-central-1.amazonaws.com/test/signup",
+					"protocol": "https",
+					"host": [
+						"a5pj7cq7u9",
+						"execute-api",
+						"ca-central-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"test",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
