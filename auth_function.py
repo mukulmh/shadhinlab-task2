@@ -15,7 +15,7 @@ def lambda_handler(event, context):
         sql_select_Query = "select * from token where token = %s"
         mycursor = connection.cursor()
         mycursor.execute(sql_select_Query,(inptoken,))
-        # get records
+        
         records = mycursor.fetchone()
         
         if records:
